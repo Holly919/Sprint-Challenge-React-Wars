@@ -33,7 +33,8 @@ const App = () => {
           birthDate={item.birth_year}
           gender={item.gender}
           height={item.height}
-          eyes={item.eye_color} />
+          eyes={item.eye_color}
+          hairColor={item.hair_color} />
         }) : null }
       </div>
     </div>
